@@ -10,7 +10,8 @@ rows = cur.fetchall()
 conn.close()
 # print(rows)
 
+print("Index --- Country")
 for i in rows:
-    print(i[0])
+    print( f"{i[0]} --- {i[1]}")
     
 
